@@ -8,7 +8,6 @@ import { RouterModule, Routes } from '@angular/router'
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SearchbarComponent } from './searchbar/searchbar.component';
-//import { UserdisplayComponent } from "./userdisplay/UserdisplayComponent";
 import { DisplayResultComponent } from './display-result/display-result.component';
 import { RequestService } from './user-request/request.service';
 import { NotFoundComponent } from './not-found/not-found.component';
