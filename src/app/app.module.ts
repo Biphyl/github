@@ -12,7 +12,7 @@ import { DisplayResultComponent } from './display-result/display-result.componen
 import { RequestService } from './user-request/request.service';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { RoutingModule } from './routing/routing.module';
-import { HoverDirective } from './hover.directive'
+import { hoverDirective } from './hover.directive'
 
 const routes: Routes = [
   { path: "resultdisplay", component: DisplayResultComponent },
@@ -27,7 +27,7 @@ const routes: Routes = [
     SearchbarComponent,
     DisplayResultComponent,
     NotFoundComponent,
-    HoverDirective
+    hoverDirective
   ],
   imports: [
     BrowserModule,
