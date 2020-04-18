@@ -4,4 +4,16 @@
 
 button, h1, h4 {
   font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+.jumbotron {
+  background-color: aqua;
+}
+
+.container {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT_fOTxuNOHpTTi1G7WwaJrswAy7aTOScpQMheUI_Hm7khnFlit&usqp=CAU);
+  background-size: 1130px 500px;
+  height: 800px;
+
 }
